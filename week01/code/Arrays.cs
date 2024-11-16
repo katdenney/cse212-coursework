@@ -2,7 +2,7 @@ public static class Arrays
 {
     /// <summary>
     /// This function will produce an array of size 'length' starting with 'number' followed by multiples of 'number'.  For 
-    /// example, MultiplesOf(7, 5) will result in: {7, 14, 21, 28, 35}.  Assume that length is a positive
+    /// example, MultiplesOf(7, 5) will result in: {7.0, 14.0, 21.0, 28.0, 35.0}.  Assume that length is a positive
     /// integer greater than 0.
     /// </summary>
     /// <returns>array of doubles that are the multiples of the supplied number</returns>
