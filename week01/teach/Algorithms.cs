@@ -35,7 +35,7 @@ public static class Algorithms {
     /// done the count is returned.
     /// </summary>
     /// <param name="size">the amount of work to do</param>
-    private static int Algorithm1(int size) {
+    private static int Algorithm1(int size) {  // O(n)
         var count = 0;
         for (var i = 0; i < size; ++i)
             count += 1;
@@ -49,7 +49,7 @@ public static class Algorithms {
     /// done the count is returned.
     /// </summary>
     /// <param name="size">the amount of work to do</param>
-    private static int Algorithm2(int size) {
+    private static int Algorithm2(int size) { 
         var count = 0;
         for (var i = 0; i < size; ++i)
         for (var j = 0; j < size; ++j)
@@ -64,7 +64,7 @@ public static class Algorithms {
     /// done the count is returned.
     /// </summary>
     /// <param name="size">the amount of work to do</param>
-    private static int Algorithm3(int size) {
+    private static int Algorithm3(int size) {  // O(log n)
         var count = 0;
         var start = 0;
         var end = size - 1;
@@ -77,3 +77,12 @@ public static class Algorithms {
         return count;
     }
 }
+//1.
+// Alg1- O(n)
+// Alg2- O(n^2) the indenting tricked me on this one
+////at first I thought this was O(n) until I realized it was a loop within a loop even though the indenting is on the same level. its O(n^2)
+// Alg3- O(log n)
+//2.
+// Alg 3 has the best performance being logarithmic 
+//3.
+// becuase when n is large and the algorithm is exponential it increses the time it takes to run exponentilly  (when n is small n*n is small when n is large n*n is large)

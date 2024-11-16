@@ -36,7 +36,7 @@ public static class ArraySelector
                 Console.WriteLine("That's weird. There isn't a third selector!");
             }
         }
-        // return the result List but it now needs to be and anctual int[] that holds the result.  the function List.toArray I think.
+        // return the result List but it now needs to be and anctual int[] that holds the result.
         return resultArray.ToArray();
     }
 }
